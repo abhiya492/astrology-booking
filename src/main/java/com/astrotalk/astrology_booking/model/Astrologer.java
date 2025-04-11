@@ -16,4 +16,9 @@ public class Astrologer {
     private String name;
     private String expertise;
     private List<String> availableSlots;  // e.g. ["10:00", "11:00", "15:30"]
+    private double rating;
+    private int reviewCount;
+    private String biography;
+    private double hourlyRate;
+    private String imageUrl;
 }
