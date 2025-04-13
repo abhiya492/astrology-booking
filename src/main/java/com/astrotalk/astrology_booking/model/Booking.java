@@ -17,6 +17,6 @@ public class Booking {
     private String userId;
     private String astrologerId;
     private String slot; // e.g. "10:30 AM"
-
     private LocalDateTime bookedAt;
+    private double amount; // Added field for payment processing
 }
